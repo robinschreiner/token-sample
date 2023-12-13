@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# syxstem-specific files
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
