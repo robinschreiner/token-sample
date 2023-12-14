@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx token-transformer tokens.json tokens/transformed.json && node build.js"
+    "build": "npx token-transformer tokens.json tokens/transformed.json   --expandTypography=true --resolveReferences=true && node build.js"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.12.2",
