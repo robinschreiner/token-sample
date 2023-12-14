@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "style-dictionary": "^3.9.1",
+    "token-transformer": "^0.0.33"
+  }
+}
