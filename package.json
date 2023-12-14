@@ -1,6 +1,16 @@
 {
+  "name": "token-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx token-transformer tokens.json tokens/transformed.json && node build.js"
+  },
   "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.12.2",
     "style-dictionary": "^3.9.1",
     "token-transformer": "^0.0.33"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
