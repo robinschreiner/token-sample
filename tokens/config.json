@@ -1,6 +1,6 @@
 {
   "source": [
-    "token.json"
+    "transformed-tokens.json"
   ],
   "platforms": {
     "css": {
