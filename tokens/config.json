@@ -5,7 +5,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "prefix": "sd",
+      "prefix": "rs",
       "buildPath": "build/css/",
       "files": [
         {
