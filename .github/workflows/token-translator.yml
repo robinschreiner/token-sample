@@ -34,3 +34,22 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+- name: Install token-transformer
+  run: npm install token-transformer
+  working-directory: ./token-translation
+
+- name: Run token-transformer
+  run: npx token-transformer tokens/tokens.json tokens/transformed-tokens.json
+  working-directory: ./token-translation
+
+- name: Commit changes
+  uses: EndBug/add-and-commit@v9
+
+  - name: Install style-dictionary
+  run: npm install -D style-dictionary
+  working-directory: ./src/token
+
+- name: Run style-dictionary
+  run: npx style-dictionary build
+  working-directory: ./src/token
